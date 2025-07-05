@@ -11,7 +11,7 @@
     <header class="header">
         <nav class="header_navbar">
             <div class="header_logo">TODAY</div>
-            <div>
+            <div class="header-links">
                 <a href="#">Home</a>
                 <a href="#">News</a>
                 <a href="#">Gallary</a>
@@ -21,18 +21,95 @@
     </header>
 <main>
     <!-- 2. flex and colum -featured Article  -->
-     <section class="feature_container">
-        <div class="feature_image">
-            <img src="" alt="Featured News">
+     <section class="featured container">
+        <div class="featured_image">
+            <img src="image/oboma.jpg" alt="Featured News">
         </div>
-        <div class="feature_content">
+        <div class="featured_content">
             <h2> Moment Obama raps Eminem's Lose Yourself a Detriot Rally</h2>
+            <p> In a memorable moment following Eminem’s introduction, former President Obama kicked off his remarks by joking that he felt nervous after Eminem’s performance—humorously reciting lines from “Lose Yourself” before declaring his love for the rapper. He then pivoted to rally the crowd, urging Detroiters to channel their energy into the ballot box, not boos, and to vote for Kamala Harris. Obama delivered a sharp critique of Donald Trump—questioning his competence, warning against unchecked power, and mocking his out-of-touch actions—before highlighting Harris’s working‑class roots, her robust policy plans, and her readiness to lead.</p>
+            <div class="featured_footer">
+                <button href="" class="featured_more">Read More</button>
+                <span class="featured_item"> 2 Minutes read</span>
+            </div>
 
         </div>
 
      </section>
-</main>
-    
-    
+     <!-- 3. Flex/Grid list - latest Carrds without text overaly  -->
+     <section class="latest">
+        <div class="container">
+            <h2 class="latest_title"> Us Election 2024</h2>
+            <p class="lasted_subtitle"> Find the latest news about USA elections</p>
+            <div class="latest_list">
+                <article class="latest_card">
+                    <img src="image/whitehouse.jpg" alt="WhiteHouse">
+                    <div class="latest_content">
+                        <h3> Trump claims Historic Victory</h3>
+                        <p>Fromer President address supporters after primary</p>
+                        <a href="#" class="latest_more"> Read More</a>
+                    </div>
+                </article>
+                
+                <article class="latest_card">
+                    <img src="image/whitehouse.jpg" alt="WhiteHouse">
+                    <div class="latest_content">
+                        <h3> Trump claims Historic Victory</h3>
+                        <p>Fromer President address supporters after primary</p>
+                        <a href="#" class="latest_more"> Read More</a>
+                    </div>
+                </article>
+                <article class="latest_card">
+                    <img src="image/whitehouse.jpg" alt="WhiteHouse">
+                    <div class="latest_content">
+                        <h3> Trump claims Historic Victory</h3>
+                        <p>Fromer President address supporters after primary</p>
+                        <a href="#" class="latest_more"> Read More</a>
+                    </div>
+                </article>
+                <article class="latest_card">
+                    <img src="image/whitehouse.jpg" alt="WhiteHouse">
+                    <div class="latest_content">
+                        <h3> Trump claims Historic Victory</h3>
+                        <p>Fromer President address supporters after primary</p>
+                        <a href="#" class="latest_more"> Read More</a>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+
+     </section>
+     <!-- 4a. Flex/Grid 2D - Hot news - flex version  -->
+      <section class="Hot">
+        <div class="container">
+            <h2 class="hot_title"> Explore the Hot News</h2>
+            <p class="hot_subtitle">Trump to sign “One Big Beautiful Bill” — With the House passing a sweeping tax-and-spending package, President Trump is slated to sign it at a White House ceremony on the Fourth of July. It expands tax cuts, imposes restrictions on Medicaid & food stamps, and raises the debt ceiling by $5 trillion</p>
+            <div class="hot_flex">
+                <article>
+                    <img src="image/hotflex.jpg" alt="Breading News">
+                    <div class="hot_overlay">Breading News</div>
+                </article>
+                <div class="hot_right">
+                    <div class="hot_right_inner">
+                        <article class="hot_card">
+                            <img src="image.hot_card.jpg" alt=" Economy Update">
+                            <div class_overlay> Economy</div>
+                        </article>
+                        <article class="hot_card">
+                            <img src="image.hot_card.jpg" alt="Technology">
+                            <div class_overlay> Technology</div>
+                        </article>
+
+                    </div>
+                    <article>
+                        <img src="" alt=" World nes">
+                        <div class="hot_overlay">World</div>
+                    </article>
+                </div>
+            </div>
+        </div>
+      </section>
+</main> 
 </body>
 </html>
