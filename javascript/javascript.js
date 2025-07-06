@@ -66,14 +66,63 @@
 // console.log("usrname is a " + typeof username);
 // console.log('Nothing is a ' + typeof nothing);
 
-const messageText = "Wellcome to Textio";
-let isBirtday = true;
+// const messageText = "Wellcome to Textio";
+// let isBirtday = true;
 
-if (isBirtday){
-    let messageText = "Happy Birthday";
-    console.log('Sending birthday message....');
-    console.log("messageText:", messageText);
+// if (isBirtday){
+//     let messageText = "Happy Birthday";
+//     console.log('Sending birthday message....');
+//     console.log("messageText:", messageText);
+// }
+
+// console.log('sending Wellcome Message....');
+// console.log("messageText:", messageText);
+
+// let x = [2,4,'hello', 5];
+// x.push('Ok');
+// console.log(typeof x);
+// x[3]= 3;
+// console.log(x);
+
+// function func1(){
+//      let  x=["Ahoo", "Rahmin", "Safada", 512];
+//      document.getElementById('p1').innerHTML = x;
+//      let y = x.pop();
+//      document.getElementById('p2').innerHTML = y;
+//      let z = x.push('Kazim');
+//      document.getElementById('p3').innerHTML = z;
+// }    
+
+// function func1(){
+//     let x = ["Ahoo", "Ramin", "Speada", 512, 256,"Speada"];
+//     document.getElementById('p1').innerHTML = x;
+//     let y = x.lastIndexOf("Speada");
+//     document.getElementById('p2').innerHTML = y;
+// }
+
+// function func1(){
+//     let x = ['Ahoo', 'ramin', 'Speida', 512, 256, 'speida', 1024, 2,6,4,1,9, 'speida', 5,1];
+//     document.getElementById('p1').innerHTML = x;
+//     document.getElementById('p2').innerHTML = x.includes("Ali");
+//     document.getElementById('p3').innerHTML = x.includes(1);
+// }
+
+// function func1(){
+//     let x= ['Ramin', 'Ahoo', 'Speida', "Hossien"];
+//     document.getElementById('p1').innerHTML = x;
+//     x.sort();
+//     document.getElementById('p2').innerHTML = x;
+// }
+
+// function func1(){
+//     let x= [1,2,8,9,4,6,7,11,14,12];
+//     document.getElementById('p1').innerHTML = x;
+//     x.sort();
+//     document.getElementById('p2').innerHTML = x;
+// }
+function func1(){
+    let x= [1,2,8,9,4,6,7,11,14,12];
+    document.getElementById('p1').innerHTML = x;
+    x.reverse();
+    document.getElementById('p2').innerHTML = x;
 }
-
-console.log('sending Wellcome Message....');
-console.log("messageText:", messageText);
