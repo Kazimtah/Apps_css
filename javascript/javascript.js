@@ -50,8 +50,30 @@
 //     x++;
 // }
 
-let x =1 ;
-while (x<10){
-    console.log(x);
-    x++;
+// let x =1 ;
+// while (x<10){
+//     console.log(x);
+//     x++;
+// }
+
+// var smsSedningLimits=30;
+// var hasPermission=true;
+// var username='kazim';
+// var nothing;
+
+// console.log("smsSendingLimits is a" + typeof smsSedningLimits);
+// console.log("hasPermission is a " + typeof hasPermission);
+// console.log("usrname is a " + typeof username);
+// console.log('Nothing is a ' + typeof nothing);
+
+const messageText = "Wellcome to Textio";
+let isBirtday = true;
+
+if (isBirtday){
+    let messageText = "Happy Birthday";
+    console.log('Sending birthday message....');
+    console.log("messageText:", messageText);
 }
+
+console.log('sending Wellcome Message....');
+console.log("messageText:", messageText);
