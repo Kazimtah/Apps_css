@@ -184,3 +184,28 @@ main section .controler:hover {
     margin-top: 2rem;
 
 }
+.white-to-red {
+    color: white;
+    animation: mywtr 1s;
+    animation-fill-mode: forwards;
+
+}
+.red-to-white {
+    color: black;
+    animation: mywtr 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes  mywtr {
+    from {background-color: white;}
+    to{background-attachment: red;}
+    
+}
+@keyframes  myrtw {
+    from{background-color: #D92121;}
+    to{background-color: white;}
+  
+}  
+#right-2 h1 {
+    margin-top: 20%;
+}
+    
