@@ -1,0 +1,16 @@
+.a-anchar,a2-anchar{
+    border: 1px solid rgb(37,135, 220);
+    text-transform: capitalize;
+    display: block;
+    width: 18rem;
+    text-decoration:none;
+}
+.a-button {
+    display: block;
+    width: 5 rem;
+    text-transform: capitalize;
+    background-color: blueviolet;
+    color: white;
+    margin-bottom: 20px;
+
+}

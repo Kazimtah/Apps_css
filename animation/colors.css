@@ -1,0 +1,66 @@
+/* Predefined colors ()
+2. rgb(1,2,3) 0-255
+3. rgba()  A stand for Alpha is like a transparency (1,2,3, alpah(0-1));
+4. Hex (1-16)
+5.HSL(Hue, saturation, lightness)=(0-240, 0-100%, 0-120) */
+/* body {
+    background-color: tomato;
+}
+h1 {
+    background-color: skyblue;
+
+}
+h2 {
+    background-color: seagreen;
+}
+h3 {
+    background-color: #2E8B57;
+}
+h4 {
+    background-color: rgb(255,68,63);
+} */
+
+/* content  */
+/* CSS box Model 
+1. Every content has a border
+ h1{
+    border-radius: 10%;
+ } */
+* {
+    margin: 0;}
+/* 
+}
+p, h1 {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    width: 150px;
+    margin-bottom: opx;
+}
+h1 {
+    margin-top: 0px;
+} */
+
+/* CSS Unite  */
+/* // 1. lenght Unite  
+            1. Absolute Unite is suggested that we should not use this method
+                1.cm
+                2.mm
+                3.inch (1 inch = 96px);
+                4.px
+                5.pt (point)
+                6.pc (picas)
+            2. Relative Unite
+                1.em = 2em two time the size of the parent
+                2.ex relative to x height of font 
+                3.rem relative to root parent 
+                4.vw relative to view port width
+                5.vh relative to view port height
+                6.vmam
+                7. percentage relative to root parent
+                8.ch relative to width of  */
+
+input {
+    display: block;
+}

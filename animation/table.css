@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(95, 93, 93);
+}
+.first-table{
+    width: 500px;
+    background-color: rgb(62, 62, 189);
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid white;
+
+}
+.first-table > th, td {
+    padding: 5px;
+    border: 1px solid white;
+   
+}
+
+.first-table > :nth-child(odd) {
+    background-color: blue;
+}
+.first-table > :nth-child(odd):hover {
+    background-color: blue;
+}
+.first-table >tr:hover {
+    background-color: orange;
+}
+.first-row:hover {
+    background-color: blue;
+}
+.table-two {
+    width: 350px;
+    background-color: blue;
+    color: white;
+
+}
+.table-two > td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.table-two > th:hover,td:hover {
+    background-color: tomato;
+}
+.third-table {
+    width: 350px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 350px;
+}
+.third-table, .third-table-tablehead{
+    border: 1px  solid white;
+    border-collapse: collapse;
+}

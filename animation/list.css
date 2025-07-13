@@ -1,0 +1,10 @@
+body {
+    background-color: whitesmoke;
+}
+ul {
+    list-style-type: square;
+    padding: 0;
+}
+ol {
+    list-style-type: upper-roman;
+}
