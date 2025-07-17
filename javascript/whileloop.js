@@ -56,3 +56,24 @@ while (x<10){
     console.log(x);
     x++;
 }
+
+// javascript has five loop
+// while
+// for
+// for in 
+// for of 
+// do while
+
+// while is so similiar to python 
+function func1(){
+    let x=0
+    while(x<10){
+        document.getElementById().innerHTML +=x + "<br>";
+        x++
+    }
+}
+function func2(){
+    for(let x=0; x<10; x++){
+
+    }
+}
